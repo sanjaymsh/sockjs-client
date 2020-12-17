@@ -11,4 +11,10 @@ env:
 matrix:
   include:
   - env: NODE_ENV=development
+    arch: amd64
   - env: BROWSER=true
+    arch: amd64
+  - env: NODE_ENV=development
+    arch: ppc64le
+  - env: BROWSER=true
+    arch: ppc64le
